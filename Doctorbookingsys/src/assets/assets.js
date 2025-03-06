@@ -7,6 +7,7 @@ import about_image from './about_image.png'
 import logo from './logo.svg'
 import logo2 from './logo2.png'
 import about from './about.jpg'
+import docs from './docs.png'
 import dropdown_icon from './dropdown_icon.svg'
 import menu_icon from './menu_icon.svg'
 import cross_icon from './cross_icon.png'
@@ -62,7 +63,8 @@ export const assets = {
     upload_icon,
     stripe_logo,
     razorpay_logo,
-    upload_area
+    upload_area,
+    docs
 }
 
 export const specialityData = [
