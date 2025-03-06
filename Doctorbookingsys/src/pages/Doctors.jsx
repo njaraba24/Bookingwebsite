@@ -26,7 +26,7 @@ const Doctors = () => {
   },[doctors, speciality]);
 
   return (
-    <div className='mx-10 sm:mx-5'>
+    <div className='lg:mx-10 sm:mx-5 md:mx-5'>
       <p className='text-gray-600'>Browse through top Kenyan Doctors</p>
       <div className='flex flex-col sm:flex-row items-start gap-5 mt-5 text-gray-800'>
         <div className='flex flex-col text-sm gap-4 text-gray-600'>
