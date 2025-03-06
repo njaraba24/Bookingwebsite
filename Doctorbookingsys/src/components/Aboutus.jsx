@@ -8,24 +8,21 @@ const Aboutus = () => {
         {/* Left side */}
         <div className="flex flex-col gap-6 justify-center md:w-2/4 text-sm text-gray-600">
           <p className="">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit . Ut ullam
-            amet praesentium a fugiat aliquam explicabo quos vel culpa sed.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-            deleniti error obcaecati, incidunt fugit optio ex laudantium saepe
-            nulla ipsum.
+           Welcome to Docspot, Kenya’s trusted online platform for booking medical appointments 
+            with certified healthcare professionals. Whether you need a gynecologist, dentist, nurse, 
+            or any other specialist, our platform makes it easy to find, schedule, and manage your healthcare 
+            appointments from the comfort of your home.
           </p>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
-            repellendus voluptas blanditiis. Velit, qui nostrum doloribus
-            commodi animi voluptatibus consequuntur!
+             We are committed to improving healthcare accessibility 
+            by connecting patients with experienced medical practitioners across the country. With a user-friendly 
+            interface and a secure booking system, we ensure a seamless experience for both patients and doctors. Your health is our priority!ur!
           </p>
           <p className="text-gray-800">Our Vision</p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-            dignissimos quam, nobis rem temporibus nihil quo dolores ipsa
-            suscipit nostrum ex hic, totam itaque, dolor doloremque recusandae
-            architecto corrupti voluptate. Inventore id soluta, provident iure
-            accusantium dolor nam quod commodi.
+            To revolutionize healthcare access in Kenya by providing 
+            a seamless, convenient, and reliable platform that connects patients
+            with trusted medical professionals, ensuring quality healthcare for all.
           </p>
         </div>
         {/* Right side */}
