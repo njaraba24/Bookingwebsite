@@ -26,7 +26,7 @@ const Doctors = () => {
   },[doctors, speciality]);
 
   return (
-    <div className='mx-10'>
+    <div className='mx-10 sm:mx-5'>
       <p className='text-gray-600'>Browse through top Kenyan Doctors</p>
       <div className='flex flex-col sm:flex-row items-start gap-5 mt-5 text-gray-800'>
         <div className='flex flex-col text-sm gap-4 text-gray-600'>
@@ -47,7 +47,7 @@ const Doctors = () => {
         <p onClick={()=> speciality === 'Pediatricians' ? navigate('/doctors') : navigate('/doctors/Pediatricians')} 
         className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${speciality === "Pediatricians" ? "bg-backgroundc text-black" : ""}`}>Pediatricians</p>
       </div>
-      <div className='w-full grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] sm:grid-cols-2 gap-4 gap-y-6 px-3 sm:px-0'>
+      <div className='w-full grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] gap-4 gap-y-6 px-3 sm:px-0'>
         {filterDoc.map((item, index)=>(
             <div onClick={()=> navigate(`/appointment/${item._id}`)} className='border-blue-200 rounded-xl overflow-hidden cursor-pointer hover:translate-y-[-10px] transition-all duration-500' key={index}>
                 <img className='bg-backgroundc' src={item.image} alt="" />
