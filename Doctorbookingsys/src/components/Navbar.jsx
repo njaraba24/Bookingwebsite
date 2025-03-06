@@ -46,7 +46,7 @@ const Navbar = () => {
         {
           token && userData
           ? <div className='flex items-center gap-2 cursor-pointer group relative'>
-            <img className='w-auto h-10 rounded-full' src={userData.image} alt="" />
+            <img className='w-auto h-10 rounded-full' src={userData.image || assets.upload_area} alt="Profile" />
             <img className='w-2.5' src="/src/assets2/dropdown.png" alt="" />
             <div className='hidden group-hover:block absolute w-fit top-10 right-0 bg-white shadow-md p-5 rounded-md z-10'>
               <div className='min-w-max  flex flex-col gap-2'>
