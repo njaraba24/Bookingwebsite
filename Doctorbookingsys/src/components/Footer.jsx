@@ -10,7 +10,9 @@ const Footer = () => {
         {/*  left side  */}
         <div>
             <img onClick={() => { navigate('/'); scrollTo(0, 0); }} className='mb-5 w-40 cursor-pointer' src={assets.logo2} alt="" />
-            <p className='w-full md:w-2/3 text-gray-800 leading-6'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste minima reiciendis exercitationem molestias sit obcaecati, accusantium repellendus. Facere, error ad.</p>
+            <p className='w-full md:w-2/3 text-gray-800 leading-6'>
+               Docspot is a reliable online platform in Kenya that connects patients with qualified healthcare professionals. 
+                Easily book appointments with specialists like gynecologists, dentists, nurses, and more—all in one place. Your health, your convenience!</p>
         </div>
         {/*  center  */}
         <div className=''>
