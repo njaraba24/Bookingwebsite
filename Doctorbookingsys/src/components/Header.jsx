@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
+import { assets } from '../assets/assets';
 
 const Header = () => {
   const navigate = useNavigate();
@@ -19,7 +20,7 @@ const Header = () => {
           font-semibold hover:bg-white hover:text-black '>Book Appoinment</button></a>
         </div>
         <div className=' relative justify-center md:hidden sm:hidden lg:block'>
-        <img src="/src/assets2/docs.png" alt=""  className='h-[80vh] w-auto'/>
+        <img src={assets.docs} alt=""  className='h-[80vh] w-auto'/>
         </div>
         
       </div>
