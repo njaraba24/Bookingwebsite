@@ -16,8 +16,8 @@ const Banner = () => {
         <button onClick={()=>{navigate('/login'); scrollTo(0,0)} } className='bg-white text-sm sm:text-base text-gray-800 px-8 py-3 rounded-full mt-6 hover:scale-105 transition-all'>Create Account</button>
       </div>
       {/*...left side.....*/}
-    <div className='hidden md:block md:w-1/2 lg:w-[370px] relative'>
-    <img className='w-full absolute bottom-0 right-0 max-w-md' src={assets.appointment_img} alt="" />
+    <div className="hidden md:flex justify-center lg:block">
+    <img src="/src/assets2/docs.png" alt="" className="h-[80vh] w-auto" />
     </div>
       
     </div>
